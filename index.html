@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        img {
+            width: 100px;
+            height: auto;
+        }
+
+        body {
+            background-image: url('BG.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            backdrop-filter: blur(2px);
+            margin: 0;
+        }
+
+        .logo {
+            width: 40%;
+            height: auto;
+            transform: translate(80%, 5%);
+        }
+
+        .links {
+                flex: 50%;
+                padding: 10px;
+                margin-left: 550px;
+                margin-right: auto;
+            }
+
+        @media screen and (max-width: 600px) {
+            .links {
+                flex: 50%;
+                padding: 10px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        .links:hover {
+            transform: translateY(-30px);
+        }
+
+        .FB:hover {
+            filter: invert(100%);
+            transform: translateY(-30px);
+        }
+        
+        .GM:hover {
+            filter: invert(100%);
+            transform: translateY(-30px);
+        }
+
+        .TG:hover {
+            filter: invert(100%);
+            transform: translateY(-30px);
+        }
+
+        .GH:hover {
+            filter: invert(100%);
+            transform: translateY(-30px);
+        }
+
+        .YT:hover {
+            filter: invert(100%);
+            transform: translateY(-30px);
+        }
+
+
+    </style>
+</head>
+<body>
+    <img class ="logo" src="LOGOKO.png" alt="Crazy Ape">
+    <div class = "links">
+        <table>
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a class= "FB" href="//www.facebook.com/liantoott/"><img src="FB.png" alt="Facebook"></a>
+                    </td>
+                    <td>
+                        <a class="GM" href="https://mail.google.com/mail/u/0/?fs=1&to=lianfrancisco0816@gmail.com&tf=cm"><img src="GM.png" alt=""></a>
+                    </td>
+                    <td>
+                        <a class="TG" href="http://web.telegram.org/k/#@Liantooth"><img src="TG.png" alt="Telegram"></a>
+                    </td>
+                    <td>
+                        <a class="GH" href="https://github.com/PapaitanMO"><img src="GH.png" alt="Tiktok"></a>
+                    </td>
+                    <td>
+                        <a class="YT" href="https://www.youtube.com/channel/UCIBSnPkPrQiq5WHdEurJwwQ"><img src="YT.png" alt="Youtube"></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
